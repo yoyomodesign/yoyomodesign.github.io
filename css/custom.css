@@ -1,0 +1,26 @@
+/***************************
+Add your custom styles below
+****************************/
+.hover-element .boxed li{
+	color: #fff;
+}
+.hover-element .boxed ul{
+	list-style-type: none;
+	line-height: 1.5em !important;
+	font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+	font-size:0.625em;
+}
+.hover-element .boxed td{
+	vertical-align: top;
+	padding: 0 0px 10px 0px;
+}
+.hover-element .boxed h6{
+	font-weight: 600;
+}
+.hover-element .boxed h4{
+	font-weight: 200;
+}
+.work-title{
+	width:75%;
+	padding:0 30px 10px 0px !important;
+}
