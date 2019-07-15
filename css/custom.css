@@ -9,6 +9,7 @@ Add your custom styles below
 	line-height: 1.5em !important;
 	font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
 	font-size:0.625em;
+	opacity: 0.65;
 }
 .hover-element .boxed td{
 	vertical-align: top;
@@ -16,9 +17,13 @@ Add your custom styles below
 }
 .hover-element .boxed h6{
 	font-weight: 600;
+	opacity:0.65;
 }
 .hover-element .boxed h4{
 	font-weight: 200;
+}
+.hover-element .boxed span{
+	opacity: 0.65;
 }
 .work-title{
 	width:75%;
