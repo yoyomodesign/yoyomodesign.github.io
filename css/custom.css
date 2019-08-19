@@ -1,6 +1,9 @@
 /***************************
 Add your custom styles below
 ****************************/
+section{
+	padding-bottom: 3em;
+}
 .hover-element .boxed li{
 	color: #fff;
 }
@@ -28,4 +31,113 @@ Add your custom styles below
 .work-title{
 	width:75%;
 	padding:0 30px 10px 0px !important;
+}
+.overview{
+	margin-top: 30px;
+}
+.overview h6{
+	font-weight: 600;
+	margin-bottom: 0.6em;
+	font-size:0.8em;
+}
+.overview ul{
+	margin-bottom: 2em;
+	line-height: 1.8em !important;
+	font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+	font-size:0.8em;
+}
+.paragraph-list{
+	list-style-type: disc;
+	padding-left:30px;
+	line-height: 1.625em !important;
+}
+.paragraph-list ol{
+	line-height: 1.625em !important;
+	list-style-type: lower-alpha;
+	list-style-position: outside;
+	padding-left:15px;
+}
+.persona{
+	font-size: 12px;
+    line-height: 1.6;
+}
+.screen-intro p{
+	font-size: 12px;
+    line-height: 1.6;
+}
+@media (min-width: 768px) {
+	.glass-description{
+		height:252px;
+	}
+}
+.in-paragraph-title{
+	font-family:'Montserrat';
+	font-weight:600;
+}
+.auto-video{
+	width:100%;
+}
+.paragraph-col ul{
+	margin-bottom: 2em;
+	line-height: 1.625em !important;
+	/*font-size:0.8em;*/
+}
+.paragraph-col h5{
+	margin-top: 30px;
+    margin-bottom: 0.6em;
+}
+.footer__lower{
+	    position: relative;
+    /*margin-top: 4.875em;*/
+    /*background: #1e1e1e;*/
+    padding: 1.625em 0;
+    background:#fbfbfb;
+}
+.top-link-light {
+  width: 3.25em;
+  height: 3.25em;
+  border-radius: 50%;
+  background: #efefef;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  z-index: 4;
+  bottom: 3.25em;
+  padding-top: 12px;
+  transition: 0.2s ease;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+}
+.top-link-light:hover {
+  transform: translate3d(0, -5px, 0);
+  -webkit-transform: translate3d(0, -5px, 0);
+}
+@media all and (max-width: 990px) {
+  .top-link-light {
+    bottom: 0;
+  }
+}
+@media all and (max-width: 767px) {
+  .top-link-light {
+    margin-top: 1.625em;
+  }
+}
+
+.footer__lower__container1{
+	padding-left:2.3125em;
+	padding-right:2.3125em;
+}
+.footer__lower__container{
+	padding-left:3.25em;
+	padding-right:3.25em;
+}
+@media all and (max-width: 990px) {
+  .footer__lower__container1{
+	padding-left:0.6875em;
+	padding-right:0.6875em;
+  }
+  .footer__lower__container{
+	padding-left:1.625em;
+	padding-right:1.625em;
+  }
 }
