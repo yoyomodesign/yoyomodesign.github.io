@@ -141,3 +141,18 @@ section{
 	padding-right:1.625em;
   }
 }
+.mytable tr{
+	height:60px;
+}
+strong{
+	color:black;
+}
+@media all and (max-width: 767px) {
+  .masonry__filters {
+    margin-bottom: 0em !important;
+    /*top:70px !important;*/
+  }
+  .masonry-contained{
+  	top:70px !important;
+  }
+}
